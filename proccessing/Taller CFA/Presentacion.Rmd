@@ -72,7 +72,7 @@ Evaluamos estadisticamente la calidad de la escala
 
 - Comunalidad
 
-- Error de medición  
+- Varianza unica - Error de medición  
 
 
 ]
@@ -140,6 +140,7 @@ En este punto entra en juego la imaginación sociologica, debemos evaluar como s
  
  c. Nombrar las dimensiones.
 
+---
 
 
 
