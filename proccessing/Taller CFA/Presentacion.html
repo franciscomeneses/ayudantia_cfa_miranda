@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Reporte de resultados</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <script src="libs/header-attrs-2.16/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan_custom/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan_custom/progress-bar.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+# El problema de la medición en ciencias sociales
+
+- Variables observables y no observables directamente
+
+- Ejemplos de variables "no observables" en ciencias sociales 
+
+- Las variables latentes: medición indirecta
+
+.center[
+![:scale 60%](medir_inteligencia.png)
+]
+---
+# Conceptos centrales de la medición 
+
+- Fiabilidad
+
+- Validez
+
+
+---
+## Modelos de medición y factores
+.pull-left[
+Operacionalizacion de los constructos
+
+  + Teoría
+  + Dimensiones
+  + Itéms
+  + Preguntas
+  
+  ]
+
+.pull-right[
+Evaluamos estadisticamente la calidad de la escala
+
+  + Fiabilidad -  alpha de crombach
+  + Validez interna - Análisis factorial
+  ]
+  
+.center[  
+![:scale 60%](operacionalizacion_personajes.png)
+]
+---
+
+
+# Analisis factorial Exploratorio
+
+.pull-left[
+
+&gt; _¿Cuantas y cuales son las dimensiones poseen nuesto conjunto de variables?_
+
+  __Conceptos centrales__
+
+- Factores
+
+- Cargas factoriales
+
+- Comunalidad
+
+- Error de medición  
+
+
+]
+
+.pull-right[
+
+![](factor.png)
+
+]
+
+
+???
+
+Los factores se producen cuando existe covarianza entre los indicadortes. se presume que esta correlacion entre los indicadores se debe a que son causadas por la misma variable latante. (por ejemplo capacidad de multuplicar)
+
+cuanto explica la variable latente al indicador
+
+conjunto de covarianza entre los indicadores
+
+el error de medición es la varianza que no es explicada por el factor comun. se interpreta como varianza del indicador que se debe a otra cosa (ejemplo prueba de mate con footbol.) (ejemplo medición de machismo. - gritar)
+
+---
+
+# Ejemplo breve
+
+.pull-left[
+
+__Lista de indicadores__
+![](lista_violencia_pareja.png)
+
+]
+
+.pull-right[
+
+__Analisis__
+![:scale 75%](grafico-sedimentacion.png)
+
+
+__Resultados__
+
+![:scale 120%](operacionalizacion_violencia_pareja.png)
+]
+
+
+
+???
+
+En este punto entra en juego la imaginación sociologica, debemos evaluar como se denominan los factores. Hay que ponerle nombre en base a los indicadores que hay dentro. 
+
+---
+
+# Manos a la obra! - Pasos del AFE
+
+1. Preparar los datos y hacer descriptivos
+
+2. Hacer correlaciones
+
+3. Evaluar condiciones de aplicación
+
+4. Realizar analisis factorial exploratorio
+
+ a. Determinar el numero adecuado de factores
+ 
+ b. Revisar las cargas factoriales
+ 
+ c. Nombrar las dimensiones.
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="xaringan_custom/macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

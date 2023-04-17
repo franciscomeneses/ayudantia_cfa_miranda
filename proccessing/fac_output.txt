@@ -1,0 +1,96 @@
+Factor Analysis using method =  ml
+Call: fa(r = trust, nfactors = 2, rotate = "varimax", fm = "ml")
+Standardized loadings (pattern matrix) based upon correlation matrix
+
+                       ML1  ML2
+SS loadings           2.79 1.82
+Proportion Var        0.35 0.23
+Cumulative Var        0.35 0.58
+Proportion Explained  0.61 0.39
+Cumulative Proportion 0.61 1.00
+
+Mean item complexity =  1.5
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  28  and the objective function was  4.04 with Chi Square of  20496
+The degrees of freedom for the model are 13  and the objective function was  0.11 
+
+The root mean square of the residuals (RMSR) is  0.03 
+The df corrected root mean square of the residuals is  0.04 
+
+The harmonic number of observations is  4942 with the empirical chi square  181  with prob <  1e-31 
+The total number of observations was  5081  with Likelihood Chi Square =  535  with prob <  6.1e-106 
+
+Tucker Lewis Index of factoring reliability =  0.945
+RMSEA index =  0.089  and the 90 % confidence intervals are  0.083 0.095
+BIC =  424
+Fit based upon off diagonal values = 1
+Measures of factor score adequacy             
+                                                   ML1  ML2
+Correlation of (regression) scores with factors   0.90 0.80
+Multiple R square of scores with factors          0.81 0.65
+Minimum correlation of possible factor scores     0.62 0.29
+Factor Analysis using method =  ml
+Call: fa(r = trust, nfactors = 2, rotate = "varimax", fm = "ml")
+Standardized loadings (pattern matrix) based upon correlation matrix
+
+                       ML1  ML2
+SS loadings           2.79 1.82
+Proportion Var        0.35 0.23
+Cumulative Var        0.35 0.58
+Proportion Explained  0.61 0.39
+Cumulative Proportion 0.61 1.00
+
+Mean item complexity =  1.5
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  28  and the objective function was  4.04 with Chi Square of  20496
+The degrees of freedom for the model are 13  and the objective function was  0.11 
+
+The root mean square of the residuals (RMSR) is  0.03 
+The df corrected root mean square of the residuals is  0.04 
+
+The harmonic number of observations is  4942 with the empirical chi square  181  with prob <  1e-31 
+The total number of observations was  5081  with Likelihood Chi Square =  535  with prob <  6.1e-106 
+
+Tucker Lewis Index of factoring reliability =  0.945
+RMSEA index =  0.089  and the 90 % confidence intervals are  0.083 0.095
+BIC =  424
+Fit based upon off diagonal values = 1
+Measures of factor score adequacy             
+                                                   ML1  ML2
+Correlation of (regression) scores with factors   0.90 0.80
+Multiple R square of scores with factors          0.81 0.65
+Minimum correlation of possible factor scores     0.62 0.29
+Factor Analysis using method =  ml
+Call: fa(r = trust, nfactors = 2, rotate = "varimax", fm = "ml")
+Standardized loadings (pattern matrix) based upon correlation matrix
+
+                       ML1  ML2
+SS loadings           2.79 1.82
+Proportion Var        0.35 0.23
+Cumulative Var        0.35 0.58
+Proportion Explained  0.61 0.39
+Cumulative Proportion 0.61 1.00
+
+Mean item complexity =  1.5
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  28  and the objective function was  4.04 with Chi Square of  20496
+The degrees of freedom for the model are 13  and the objective function was  0.11 
+
+The root mean square of the residuals (RMSR) is  0.03 
+The df corrected root mean square of the residuals is  0.04 
+
+The harmonic number of observations is  4942 with the empirical chi square  181  with prob <  1e-31 
+The total number of observations was  5081  with Likelihood Chi Square =  535  with prob <  6.1e-106 
+
+Tucker Lewis Index of factoring reliability =  0.945
+RMSEA index =  0.089  and the 90 % confidence intervals are  0.083 0.095
+BIC =  424
+Fit based upon off diagonal values = 1
+Measures of factor score adequacy             
+                                                   ML1  ML2
+Correlation of (regression) scores with factors   0.90 0.80
+Multiple R square of scores with factors          0.81 0.65
+Minimum correlation of possible factor scores     0.62 0.29
